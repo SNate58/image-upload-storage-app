@@ -1,0 +1,11 @@
+{
+  "name": "image-upload-storage-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./styles/input.css -o ./public/output.css --minify",
+    "start": "live-server public"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
