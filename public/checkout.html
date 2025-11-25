@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+<body class="p-8">
+  <h1 class="text-3xl font-bold mb-4">Checkout</h1>
+  <div id="cart-items" class="mb-4"></div>
+  <div>Total: $<span id="total">0.00</span></div>
+  <button id="checkout-btn" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Pay with Stripe</button>
+
+  <script type="module" src="../src/cart.js"></script>
+  <script type="module" src="../src/stripe.js"></script>
+</body>
+</html>
